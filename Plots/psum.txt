@@ -1,0 +1,13 @@
+P1-Plot for Italy's day 44, in which we train for 7 days from 44th day to 50th day and predict for the next 3 days. We plotted these graphs to check the predicted parameters that we then adjusted according to the upper and lower limits for them.
+
+p2-Plot for 3rd day prediction for Spain. 
+
+p3-Plot for 3rd day prediction for Texas US.
+
+p4-This is similar prediction for texas' starting day 72, you can see the plot is not fitting, if we check the parameters and try different values, you can find that increasing w2 might result in a better fit.
+
+p5-After increasing w2 for the same graph, it fits well. After this we changed the ranges of w2 in the initial grid search to higher values so that it fits better after being predicted from the meta kernel.
+
+p6-Plot of meta kernel and time series model over a certain window size for texas US, you can see that meta kernel model is performing better than time series model.
+
+p7-Plot of meta kernel and time series model over a certain window size for mexico. You can notice that time series is performing better than meta kernel.
